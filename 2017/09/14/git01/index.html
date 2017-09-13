@@ -8,20 +8,21 @@
   <link rel="dns-prefetch" href="https://joanne-q.github.io">
   <title>git的基础 | Joanne的博客</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="01 git的简介 git它是一个内容分布式版本控制工具 git和svn有什么区别呢？ git不需要中央处理器，一台电脑也可以是服务端也可以是客户端。对网络依赖小，使用时可以断网，安全性高svn需要中央处理器，多个客户端一个服务器，要求联网，安全性低 git是分布式管理代码svn是集中式管理，版本库集中在中央处理器    02 git的安装![](https://github.com/Joann">
+  <meta name="description" content="01 git的简介 git它是一个内容分布式版本控制工具 git和svn有什么区别呢？  01git不需要中央处理器，一台电脑也可以是服务端也可以是客户端。对网络依赖小，使用时可以断网，安全性高`svn`需要中央处理器，多个客户端一个服务器，要求联网，安全性低   02git是分布式管理代码`svn`是集中式管理，版本库集中在中央处理器   02 git的安装   进行默认安装就行，安装成功会出">
 <meta name="keywords" content="笔记">
 <meta property="og:type" content="article">
 <meta property="og:title" content="git的基础">
 <meta property="og:url" content="https://joanne-q.github.io/2017/09/14/git01/index.html">
 <meta property="og:site_name" content="Joanne的博客">
-<meta property="og:description" content="01 git的简介 git它是一个内容分布式版本控制工具 git和svn有什么区别呢？ git不需要中央处理器，一台电脑也可以是服务端也可以是客户端。对网络依赖小，使用时可以断网，安全性高svn需要中央处理器，多个客户端一个服务器，要求联网，安全性低 git是分布式管理代码svn是集中式管理，版本库集中在中央处理器    02 git的安装![](https://github.com/Joann">
+<meta property="og:description" content="01 git的简介 git它是一个内容分布式版本控制工具 git和svn有什么区别呢？  01git不需要中央处理器，一台电脑也可以是服务端也可以是客户端。对网络依赖小，使用时可以断网，安全性高`svn`需要中央处理器，多个客户端一个服务器，要求联网，安全性低   02git是分布式管理代码`svn`是集中式管理，版本库集中在中央处理器   02 git的安装   进行默认安装就行，安装成功会出">
 <meta property="og:locale" content="zh-CN">
+<meta property="og:image" content="https://github.com/Joanne-q/Joanne-q.github.io/blob/master/img/git/git01.jpg?raw=true">
 <meta property="og:image" content="https://github.com/Joanne-q/Joanne-q.github.io/blob/master/img/git/git02.jpg?raw=true">
-<meta property="og:updated_time" content="2017-09-13T14:59:48.932Z">
+<meta property="og:updated_time" content="2017-09-13T15:04:08.409Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="git的基础">
-<meta name="twitter:description" content="01 git的简介 git它是一个内容分布式版本控制工具 git和svn有什么区别呢？ git不需要中央处理器，一台电脑也可以是服务端也可以是客户端。对网络依赖小，使用时可以断网，安全性高svn需要中央处理器，多个客户端一个服务器，要求联网，安全性低 git是分布式管理代码svn是集中式管理，版本库集中在中央处理器    02 git的安装![](https://github.com/Joann">
-<meta name="twitter:image" content="https://github.com/Joanne-q/Joanne-q.github.io/blob/master/img/git/git02.jpg?raw=true">
+<meta name="twitter:description" content="01 git的简介 git它是一个内容分布式版本控制工具 git和svn有什么区别呢？  01git不需要中央处理器，一台电脑也可以是服务端也可以是客户端。对网络依赖小，使用时可以断网，安全性高`svn`需要中央处理器，多个客户端一个服务器，要求联网，安全性低   02git是分布式管理代码`svn`是集中式管理，版本库集中在中央处理器   02 git的安装   进行默认安装就行，安装成功会出">
+<meta name="twitter:image" content="https://github.com/Joanne-q/Joanne-q.github.io/blob/master/img/git/git01.jpg?raw=true">
   
     <link rel="alternative" href="/atom.xml" title="Joanne的博客" type="application/atom+xml">
   
@@ -168,14 +169,12 @@
         <p><br></p>
 <h3 id="01-git的简介"><a href="#01-git的简介" class="headerlink" title="01 git的简介"></a>01 git的简介</h3><ul>
 <li>git它是一个<code>内容分布式版本控制工具</code></li>
-<li>git和svn有什么区别呢？<ol>
-<li><code>git</code>不需要中央处理器，一台电脑也可以是服务端也可以是客户端。对网络依赖小，使用时可以断网，安全性高<br><code>svn</code>需要中央处理器，多个客户端一个服务器，要求联网，安全性低</li>
-<li><code>git</code>是分布式管理代码<br><code>svn</code>是集中式管理，版本库集中在中央处理器</li>
-</ol>
-</li>
+<li>git和svn有什么区别呢？<br>  01<code>git</code>不需要中央处理器，一台电脑也可以是服务端也可以是客户端。对网络依赖小，使用时可以断网，安全性高<pre><code>`svn`需要中央处理器，多个客户端一个服务器，要求联网，安全性低
+</code></pre>  02<code>git</code>是分布式管理代码<pre><code>`svn`是集中式管理，版本库集中在中央处理器
+</code></pre></li>
 </ul>
-<h3 id="02-git的安装"><a href="#02-git的安装" class="headerlink" title="02 git的安装"></a>02 git的安装</h3><pre><code>![](https://github.com/Joanne-q/Joanne-q.github.io/blob/master/img/git/git01.jpg?raw=true)
-</code></pre><p>进行默认安装就行，安装成功会出现如下：<br>    <img src="https://github.com/Joanne-q/Joanne-q.github.io/blob/master/img/git/git02.jpg?raw=true" alt=""></p>
+<h3 id="02-git的安装"><a href="#02-git的安装" class="headerlink" title="02 git的安装"></a>02 git的安装</h3><p><img src="https://github.com/Joanne-q/Joanne-q.github.io/blob/master/img/git/git01.jpg?raw=true" alt="">  </p>
+<p>进行默认安装就行，安装成功会出现如下：<br><img src="https://github.com/Joanne-q/Joanne-q.github.io/blob/master/img/git/git02.jpg?raw=true" alt="">  </p>
 <h3 id="03-git的基础命令"><a href="#03-git的基础命令" class="headerlink" title="03 git的基础命令"></a>03 git的基础命令</h3><p>git init<br>git add<br>git status</p>
 
       
